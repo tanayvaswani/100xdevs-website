@@ -10,7 +10,7 @@ const headingFont = localFont({
 const Logo = () => {
   return (
     <Link href={"/"}>
-      <div className="hover:opacity-90 transition items-center gap-x-2 hidden md:flex">
+      <div className="hover:opacity-90 transition flex items-center gap-x-2">
         <Image
           src={"/harkirat.png"}
           alt={"logo"}

@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="md:max-w-screen-2xl mx-auto flex items-center justify-between w-full">
         <Logo />
 
-        <div className="flex items-center justify-between md:w-auto md:block w-full space-x-4">
+        <div className="flex items-center justify-between md:w-auto md:block space-x-2 md:space-x-4">
           <Button variant={"outline"} size={"sm"} asChild>
             <Link href={"/login"}>Login</Link>
           </Button>
