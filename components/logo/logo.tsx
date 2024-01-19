@@ -19,7 +19,7 @@ const Logo = () => {
           width={30}
         />
         <p
-          className={cn("text-xl text-neutral-700 pb-1", headingFont.className)}
+          className={cn("text-xl text-neutral-700", headingFont.className)}
         >
           100xdevs
         </p>
