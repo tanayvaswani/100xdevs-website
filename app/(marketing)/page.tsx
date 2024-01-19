@@ -7,6 +7,7 @@ import { Poppins } from "next/font/google";
 import PlatformSection from "@/components/snaps-section/platform/platform-section";
 import DashboardSection from "@/components/snaps-section/dashboard/dashboard-section";
 import TrustedBySection from "@/components/trustedby-section/trusted-by";
+import WhyUsSection from "@/components/why-us-section/why-us";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -83,7 +84,8 @@ export default function MarketingPage() {
       {/* Dashboard */}
       <DashboardSection />
 
-
+      {/* Why Us? */}
+      <WhyUsSection />
     </main>
   );
 }
