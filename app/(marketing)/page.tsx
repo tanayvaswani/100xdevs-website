@@ -37,7 +37,7 @@ export default function MarketingPage() {
         </h1>
 
         <div className="text-3xl md:text-6xl text-neutral-800 px-4 pb-4 w-fit">
-          coz 10x ain&apos;t enough.
+          because 10x ain&apos;t enough!
         </div>
 
         <div
