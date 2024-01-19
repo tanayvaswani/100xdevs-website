@@ -7,7 +7,8 @@ import { Poppins } from "next/font/google";
 import PlatformSection from "@/components/snaps-section/platform/platform-section";
 import DashboardSection from "@/components/snaps-section/dashboard/dashboard-section";
 import TrustedBySection from "@/components/trustedby-section/trusted-by";
-import WhyUsSection from "@/components/why-us-section/why-us";
+import WhyUsSection from "@/components/us-section/why-us";
+import AboutUsSection from "@/components/us-section/about-us";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -86,6 +87,9 @@ export default function MarketingPage() {
 
       {/* Why Us? */}
       <WhyUsSection />
+
+      {/* About us */}
+      <AboutUsSection />
     </main>
   );
 }
