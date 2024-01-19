@@ -11,7 +11,7 @@ const WhyUsCard = ({
 }: IWhyUsCard) => {
     return ( 
         <div>
-            any
+            
         </div>
      );
 }
