@@ -9,6 +9,7 @@ import DashboardSection from "@/components/snaps-section/dashboard/dashboard-sec
 import TrustedBySection from "@/components/trustedby-section/trusted-by";
 import WhyUsSection from "@/components/us-section/why-us";
 import AboutUsSection from "@/components/us-section/about-us";
+import DiscordSection from "@/components/snaps-section/never-miss/never-miss";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -90,6 +91,9 @@ export default function MarketingPage() {
 
       {/* About us */}
       <AboutUsSection />
+
+      {/* Discord Section */}
+      <DiscordSection />
     </main>
   );
 }
