@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center">
-          <Link href={""} className="hover:text-blue-500 text-neutral-200">
+          <Link href={""} className="hover:text-blue-500 text-neutral-200 mb-6">
             Download App
           </Link>
           <div>
