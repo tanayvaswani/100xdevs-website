@@ -10,7 +10,7 @@ const PlatformSection = () => {
           alt={"platform"}
           width={1080}
           height={1920}
-          className="rounded-lg md:rounded-xl border"
+          className="rounded-lg md:rounded-xl border-2 border-slate-600"
         />
       </div>
     </div>

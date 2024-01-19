@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
 import PlatformSection from "@/components/snaps-section/platform/platform-section";
 import DashboardSection from "@/components/snaps-section/dashboard/dashboard-section";
+import TrustedBySection from "@/components/trustedby-section/trusted-by";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -75,6 +76,9 @@ export default function MarketingPage() {
 
       {/* Platform */}
       <PlatformSection />
+
+      {/* Trusted by */}
+      <TrustedBySection />
 
       {/* Dashboard */}
       <DashboardSection />
