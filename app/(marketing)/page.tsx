@@ -99,9 +99,6 @@ export default function MarketingPage() {
 
       {/* PreFooter Section */}
       <PreFooterSection />
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }
