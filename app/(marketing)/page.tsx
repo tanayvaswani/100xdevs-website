@@ -27,7 +27,7 @@ export default function MarketingPage() {
           headingFont.className
         )}
       >
-        <div className="mb-4 flex items-center border shadow-md py-3 px-6 bg-blue-50 text-blue-700 rounded-full uppercase">
+        <div className="mb-4 text-sm md:text-md font-sans font-semibold flex items-center border shadow-md py-3 px-4 md:px-6 bg-blue-50 text-blue-700 rounded-full uppercase">
           <Medal className="h-6 w-6 mr-2" />
           #1 learning platform
         </div>
@@ -82,6 +82,8 @@ export default function MarketingPage() {
 
       {/* Dashboard */}
       <DashboardSection />
+
+
     </main>
   );
 }

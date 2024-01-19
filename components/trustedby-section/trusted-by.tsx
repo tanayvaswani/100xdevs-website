@@ -5,7 +5,7 @@ const TrustedBySection = () => {
         Trusted by
       </h2>
       <span className="text-center text-neutral-600 text-xl md:text-2xl font-medium">
-        Passionate developers from the different parts of world!
+        Passionate developers from different parts of the world!
       </span>
     </div>
   );
