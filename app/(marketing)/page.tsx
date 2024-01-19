@@ -17,6 +17,7 @@ const textFont = Poppins({
 export default function MarketingPage() {
   return (
     <main className="flex items-center justify-center flex-col">
+      {/* Tagline */}
       <div
         className={cn(
           "flex items-center justify-center flex-col",
@@ -48,6 +49,7 @@ export default function MarketingPage() {
         </div>
       </div>
 
+      {/* CTA Buttons */}
       <div className="flex items-center gap-2">
         <Button
           className="mt-6 rounded-full  hover:shadow-sm"
@@ -68,6 +70,8 @@ export default function MarketingPage() {
           </Link>
         </Button>
       </div>
+
+      
     </main>
   );
 }
