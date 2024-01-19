@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={cn("h-full bg-slate-100", inter.className)}>
         {/* <BackgroundGradient /> */}
         <Navbar />
-        <main className="pt-36 pb-16">{children}</main>
+        <main className="pt-36">{children}</main>
         {/* Footer */}
       </body>
     </html>
