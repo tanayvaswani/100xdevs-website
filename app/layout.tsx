@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar/navbar";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("h-full bg-slate-100", inter.className)}>
+        <BackgroundGradient />
         <Navbar />
-        <main className="pt-36 pb-16 bg-slate-100">{children}</main>
+        <main className="pt-36 pb-16">{children}</main>
         {/* Footer */}
       </body>
     </html>
