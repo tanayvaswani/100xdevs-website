@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <div className="bottom-0 border-t w-full p-4 bg-neutral-900 px-6 lg:px-36">
-      <div className="md:max-w-screen-2xl my-6 mx-auto flex flex-col lg:flex-row items-start justify-between w-full">
+      <div className="md:max-w-screen-2xl mt-4 mb-20 mx-auto flex flex-col lg:flex-row items-start justify-between w-full">
         <LogoLight />
 
         <div className="flex flex-col justify-center my-8 lg:my-0">
