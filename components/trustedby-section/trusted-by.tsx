@@ -1,10 +1,10 @@
 const TrustedBySection = () => {
   return (
-    <div className="w-full flex flex-col gap-y-2 items-center justify-center px-4 md:px-36 lg:px-48 my-12">
+    <div className="w-full flex flex-col gap-y-2 items-center justify-center px-4 md:px-36 lg:px-48 mt-12">
       <h2 className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
         Trusted by
       </h2>
-      <span className="text-neutral-600 text-xl md:text-2xl font-semibold">
+      <span className="text-center text-neutral-600 text-xl md:text-2xl font-medium">
         Passionate developers from the different parts of world!
       </span>
     </div>
