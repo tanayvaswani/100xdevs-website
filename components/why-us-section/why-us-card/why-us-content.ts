@@ -1,5 +1,6 @@
 type TwhyUs = {
   id: number;
+  icon: any;
   tagline: string;
   headline: string;
   description: string;
@@ -8,6 +9,7 @@ type TwhyUs = {
 export const whyUs: TwhyUs = [
   {
     id: 1,
+    icon: "",
     tagline: "#1 Instructor",
     headline: "Learn from the best",
     description:
@@ -15,6 +17,7 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 2,
+    icon: "",
     tagline: "Beginner Friendly",
     headline: "Basics to Advanced",
     description:
@@ -22,18 +25,21 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 3,
+    icon: "",
     tagline: "Open Source",
     headline: "Raise issues, Merge PRs",
     description: "Helping you make your first open source contribution.",
   },
   {
     id: 4,
+    icon: "",
     tagline: "Exponential Growth",
     headline: "Reach your inflection point",
     description: "Become a self sufficient developer in the upcoming months.",
   },
   {
     id: 5,
+    icon: "",
     tagline: "Version Control",
     headline: "Learn about Software Development Life Cycle",
     description:
@@ -41,6 +47,7 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 6,
+    icon: "",
     tagline: "Assignments",
     headline: "Learn by doing",
     description:
