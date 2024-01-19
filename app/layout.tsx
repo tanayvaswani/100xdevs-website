@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: [
     {
-      url: "/logo/harkirat.png",
-      href: "/logo/harkirat.png",
+      url: "/harkirat.png",
+      href: "/harkirat.png",
     },
   ],
 };
