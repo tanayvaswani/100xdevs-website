@@ -72,9 +72,7 @@ export default function MarketingPage() {
         </Button>
       </div>
 
-      <div className="">
-        <PlatformSection />
-      </div>
+      <PlatformSection />
     </main>
   );
 }
