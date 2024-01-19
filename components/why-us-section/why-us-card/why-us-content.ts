@@ -9,7 +9,7 @@ type TwhyUs = {
 export const whyUs: TwhyUs = [
   {
     id: 1,
-    icon: "",
+    icon: "Laptop2",
     tagline: "#1 Instructor",
     headline: "Learn from the best",
     description:
@@ -17,7 +17,7 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 2,
-    icon: "",
+    icon: "Star",
     tagline: "Beginner Friendly",
     headline: "Basics to Advanced",
     description:
@@ -25,21 +25,21 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 3,
-    icon: "",
+    icon: "Globe2",
     tagline: "Open Source",
     headline: "Raise issues, Merge PRs",
     description: "Helping you make your first open source contribution.",
   },
   {
     id: 4,
-    icon: "",
+    icon: "BarChart4",
     tagline: "Exponential Growth",
     headline: "Reach your inflection point",
     description: "Become a self sufficient developer in the upcoming months.",
   },
   {
     id: 5,
-    icon: "",
+    icon: "FileStack",
     tagline: "Version Control",
     headline: "Learn about Software Development Life Cycle",
     description:
@@ -47,7 +47,7 @@ export const whyUs: TwhyUs = [
   },
   {
     id: 6,
-    icon: "",
+    icon: "Rocket",
     tagline: "Assignments",
     headline: "Learn by doing",
     description:
