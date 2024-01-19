@@ -9,10 +9,10 @@ const DiscordSection = () => {
     <div className="w-full flex items-center justify-between py-32 my-20 bg-neutral-900">
       <div className="w-full flex flex-col items-start justify-center px-4 md:px-12">
         <h3 className="font-medium text-sm text-neutral-200">
-          <span className="font-bold text-blue-600 pr-1">|</span>Discord Support
+          <span className="font-bold text-blue-500 pr-1">|</span>Discord Support
         </h3>
         <h2 className="text-2xl md:text-4xl font-semibold text-neutral-50 mt-4 mb-6">
-          Never miss any concept!
+          Never miss on anything!
         </h2>
         <p className="text-lg text-neutral-100 font-medium mb-4">
           Personal TAs make it easy for you to get your doubts solved within
