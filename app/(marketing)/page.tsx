@@ -40,7 +40,7 @@ export default function MarketingPage() {
           100xdevs
         </h1>
 
-        <div className="text-3xl md:text-6xl text-neutral-800 px-4 pb-4 w-fit">
+        <div className="text-3xl md:text-6xl text-center text-neutral-800 px-4 pb-4 w-fit">
           because 10x ain&apos;t enough!
         </div>
 
