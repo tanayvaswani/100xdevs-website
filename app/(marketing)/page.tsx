@@ -10,7 +10,6 @@ import TrustedBySection from "@/components/trustedby-section/trusted-by";
 import WhyUsSection from "@/components/us-section/why-us";
 import AboutUsSection from "@/components/us-section/about-us";
 import DiscordSection from "@/components/snaps-section/discord-section/discord-section";
-import Footer from "@/components/footer/footer";
 import PreFooterSection from "@/components/footer/pre-footer/pre-footer";
 
 const headingFont = localFont({

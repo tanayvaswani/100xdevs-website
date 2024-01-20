@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between md:w-auto md:block space-x-2 md:space-x-4">
           <Button variant={"outline"} size={"sm"} asChild>
-            <Link href={"/login"}>Login</Link>
+            <Link href={"https://app.100xdevs.com/api/auth/signin"}>Login</Link>
           </Button>
           <Button size={"sm"} asChild>
             <Link href={"/signup"}>

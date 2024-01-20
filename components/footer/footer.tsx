@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center my-8 lg:my-0">
           <h3 className="font-semibold text-neutral-100">Quick Links</h3>
           <Link href={"/tnc"} className="hover:text-blue-500 text-neutral-200">
-            Terms of Service
+            Terms & Conditions
           </Link>
           <Link
             href={"/privacy-policy"}
