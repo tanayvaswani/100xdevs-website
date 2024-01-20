@@ -19,7 +19,10 @@ const PreFooterSection = () => {
       </div>
 
       <Button size={"lg"} className="text-lg rounded-full" asChild>
-        <Link href={"https://harkirat.classx.co.in/new-courses"}>
+        <Link
+          href={"https://harkirat.classx.co.in/new-courses"}
+          target="_blank"
+        >
           Join now! <Sparkles className="ml-1 h-4 w-4" />
         </Link>
       </Button>
