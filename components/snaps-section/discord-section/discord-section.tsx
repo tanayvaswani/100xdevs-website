@@ -28,7 +28,7 @@ const DiscordSection = () => {
           size={"lg"}
           asChild
         >
-          <Link href={"/courses"}>
+          <Link href={"https://harkirat.classx.co.in/new-courses"}>
             Explore courses <ChevronRight className="h-4 w-4 ml-1" />{" "}
           </Link>
         </Button>

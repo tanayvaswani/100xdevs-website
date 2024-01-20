@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link href={"https://app.100xdevs.com/api/auth/signin"}>Login</Link>
           </Button>
           <Button size={"sm"} asChild>
-            <Link href={"/signup"}>
+            <Link href={"https://harkirat.classx.co.in/new-courses"}>
               Join now! <Sparkles className="ml-1 h-4 w-4" />
             </Link>
           </Button>
