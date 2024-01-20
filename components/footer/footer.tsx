@@ -1,6 +1,8 @@
 import Link from "next/link";
 import LogoLight from "../logo/logo-light";
 import { Instagram, TwitterIcon, Youtube } from "lucide-react";
+import Image from "next/image";
+import playstore from "@/public/platform/playstore.png";
 
 const Footer = () => {
   return (
@@ -28,15 +30,33 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center">
-          <Link href={""} className="hover:text-blue-500 text-neutral-200 mb-6">
+          <Link
+            href={
+              "https://play.google.com/store/apps/details?id=com.hundredx.devs"
+            }
+            className="hover:text-blue-500 font-semibold  text-neutral-200 mb-4"
+          >
             Download App
+            <Image
+              className="shadow-md mt-2"
+              src={playstore}
+              alt={"playstore"}
+              height={50}
+              width={150}
+            />
           </Link>
           <div>
-            <h4 className="text-neutral-200">Follow us</h4>
-            <div className="flex gap-x-1">
-              <TwitterIcon fill="white" />
-              <Instagram fill="white" />
-              <Youtube fill="white" />
+            <h4 className="text-neutral-200 font-semibold mb-2">Follow us</h4>
+            <div className="flex gap-x-2">
+              <Link href={"https://twitter.com/kirat_tw"}>
+                <TwitterIcon color="white" />
+              </Link>
+              <Link href={"https://www.instagram.com/kirat_ins/"}>
+                <Instagram color="white" />
+              </Link>
+              <Link href={"https://www.youtube.com/@harkirat1"}>
+                <Youtube color="white" />
+              </Link>
             </div>
           </div>
         </div>
