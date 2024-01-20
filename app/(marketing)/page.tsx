@@ -63,7 +63,10 @@ export default function MarketingPage() {
           size={"lg"}
           asChild
         >
-          <Link href={"https://harkirat.classx.co.in/new-courses"}>
+          <Link
+            href={"https://harkirat.classx.co.in/new-courses"}
+            target="_blank"
+          >
             Explore courses
           </Link>
         </Button>
