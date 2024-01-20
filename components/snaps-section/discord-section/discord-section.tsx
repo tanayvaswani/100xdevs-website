@@ -11,7 +11,7 @@ const DiscordSection = () => {
         <h3 className="font-medium text-sm text-neutral-200">
           <span className="font-bold text-blue-500 pr-1">|</span>Discord Support
         </h3>
-        <h2 className="text-2xl md:text-4xl font-semibold text-neutral-50 mt-4 mb-6">
+        <h2 className="text-2xl md:text-4xl font-semibold text-neutral-50 mt-3 mb-6">
           Never miss on anything!
         </h2>
         <p className="text-lg text-neutral-100 font-medium mb-4">
@@ -24,7 +24,7 @@ const DiscordSection = () => {
         </p>
 
         <Button
-          className="mt-6 rounded-full  hover:shadow-sm"
+          className="mt-6 text-lg rounded-full  hover:shadow-sm"
           size={"lg"}
           asChild
         >

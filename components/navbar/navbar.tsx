@@ -18,7 +18,7 @@ const Navbar = () => {
               href={"https://harkirat.classx.co.in/new-courses"}
               target="_blank"
             >
-              Join now! <Sparkles className="ml-1 h-4 w-4" />
+              Join now <Sparkles className="ml-1 h-4 w-4" />
             </Link>
           </Button>
         </div>

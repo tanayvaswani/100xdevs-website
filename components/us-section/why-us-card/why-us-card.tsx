@@ -13,7 +13,7 @@ const WhyUsCard = ({ tagline, headline, description }: IWhyUsCard) => {
           {tagline}
         </h3>
 
-        <h2 className="text-xl md:text-2xl font-semibold text-neutral-800 mt-4 mb-4">
+        <h2 className="text-xl md:text-2xl font-semibold text-neutral-800 mt-1.5 md:mt-4 mb-2.5 md:mb-4">
           {headline}
         </h2>
 

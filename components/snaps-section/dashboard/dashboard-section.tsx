@@ -12,7 +12,7 @@ const DashboardSection = () => {
           <span className="font-bold text-blue-600 pr-1">|</span>The best
           learing platform!
         </h3>
-        <h2 className="text-2xl md:text-4xl font-semibold text-neutral-800 mt-4 mb-6">
+        <h2 className="text-2xl md:text-4xl font-semibold text-neutral-800 mt-3 mb-6">
           What is 100xdevs?
         </h2>
         <p className="text-lg text-neutral-600 font-medium">
@@ -24,7 +24,7 @@ const DashboardSection = () => {
         </p>
 
         <Button
-          className="mt-6 rounded-full  hover:shadow-sm"
+          className="mt-6 text-lg rounded-full  hover:shadow-sm"
           size={"lg"}
           asChild
         >
