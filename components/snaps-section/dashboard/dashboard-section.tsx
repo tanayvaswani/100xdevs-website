@@ -37,7 +37,7 @@ const DashboardSection = () => {
         </Button>
       </div>
 
-      <div className="hidden md:block py-3 pl-3 md:py-6 md:pl-6 rounded-xl md:rounded-l-2xl bg-slate-200 border-y border-l border-slate-200">
+      <div className="hidden md:block py-3 pl-3 md:py-6 md:pl-6 rounded-l-xl md:rounded-l-2xl bg-slate-200 border-l border-slate-200">
         <Image
           src={dashboard}
           alt={"platform"}
