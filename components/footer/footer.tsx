@@ -34,6 +34,7 @@ const Footer = () => {
             href={
               "https://play.google.com/store/apps/details?id=com.hundredx.devs"
             }
+            target="_blank"
             className="hover:text-blue-500 font-semibold  text-neutral-200 mb-4"
           >
             Download App
@@ -48,13 +49,16 @@ const Footer = () => {
           <div>
             <h4 className="text-neutral-200 font-semibold mb-2">Follow us</h4>
             <div className="flex gap-x-2">
-              <Link href={"https://twitter.com/kirat_tw"}>
+              <Link target="_blank" href={"https://twitter.com/kirat_tw"}>
                 <TwitterIcon color="white" />
               </Link>
-              <Link href={"https://www.instagram.com/kirat_ins/"}>
+              <Link
+                target="_blank"
+                href={"https://www.instagram.com/kirat_ins/"}
+              >
                 <Instagram color="white" />
               </Link>
-              <Link href={"https://www.youtube.com/@harkirat1"}>
+              <Link target="_blank" href={"https://www.youtube.com/@harkirat1"}>
                 <Youtube color="white" />
               </Link>
             </div>

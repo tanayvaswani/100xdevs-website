@@ -77,7 +77,7 @@ export default function MarketingPage() {
           variant={"outline"}
           asChild
         >
-          <Link href={""}>
+          <Link href={"#trustedby"}>
             See more <ChevronRight className="h-4 w-4" />
           </Link>
         </Button>
