@@ -37,7 +37,7 @@ const DiscordSection = () => {
         </Button>
       </div>
 
-      <div className="hidden md:block py-3 pl-3 md:py-6 md:pl-6 rounded-xl md:rounded-l-2xl bg-neutral-800 shadow-2xl ">
+      <div className="hidden md:block py-3 pl-3 md:py-6 md:pl-6 rounded-l-xl md:rounded-l-2xl bg-neutral-800 shadow-2xl">
         <Image
           src={discord}
           alt={"platform"}
