@@ -1,0 +1,26 @@
+name: DeepTeam Code Scan
+
+on:
+  pull_request:
+    types: [opened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "deepteam[claude]"
+      - name: Scan & comment as deepteam[bot]
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONFIDENT_BASE_URL: "https://api.confident-ai.com"
+        run: deepteam scan . --provider claude --diff "origin/${{ github.base_ref }}..HEAD" --comment
