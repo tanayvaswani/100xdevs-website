@@ -3,10 +3,17 @@ name: DeepTeam Code Scan
 on:
   pull_request:
     types: [opened, synchronize, ready_for_review]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Pull request number to scan"
+        required: true
+        type: string
 
 permissions:
   contents: read
   id-token: write
+  pull-requests: read
 
 jobs:
   scan:
@@ -15,12 +22,27 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Check out the pull request (manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PR="${{ github.event.inputs.pr }}"
+          BASE=$(gh pr view "$PR" --json baseRefName --jq .baseRefName)
+          git fetch origin "$BASE" "refs/pull/$PR/head:pr-$PR"
+          git checkout "pr-$PR"
+          echo "SCAN_BASE=$BASE" >> "$GITHUB_ENV"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install "deepteam[claude]"
+      - run: pip install "deepteam[claude-code]"
       - name: Scan & comment as deepteam[bot]
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CONFIDENT_BASE_URL: "https://api.confident-ai.com"
-        run: deepteam scan . --provider claude --diff "origin/${{ github.base_ref }}..HEAD" --comment
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            deepteam scan . --provider claude-code --diff "origin/$SCAN_BASE..HEAD" --pr "${{ github.event.inputs.pr }}" --comment
+          else
+            deepteam scan . --provider claude-code --diff "origin/${{ github.base_ref }}..HEAD" --comment
+          fi
